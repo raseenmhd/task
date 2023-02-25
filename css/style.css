@@ -276,7 +276,6 @@ br.clear {
 
 #home header .sportlight .servise .care {
     width: 25%;
-    
 }
 
 #home header .sportlight .servise .care h3 {
@@ -290,4 +289,93 @@ br.clear {
     color: #7c7c7c;
     font-size: 12px;
     max-width: 260px;
+}
+
+#main {
+}
+#main .item {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#main .item .image_box {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+#main .item .image_box .main_image {
+    margin-right: 30px;
+    width: 75%;
+}
+#main .item .image_box .main_image img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+#main .item .image_box ul {
+}
+#main .item .image_box ul li {
+    width: 100%;
+}
+#main .item .image_box ul li.therd_image {
+    margin-top: 30px;
+}
+#main .item .image_box ul li img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+#main .item .content {
+    width: 80%;
+    padding: 75px;
+}
+#main .item .content h3 {
+    font-size: 50px;
+}
+#main .item .content p {
+    font-size: 18px;
+    color: #7c7c7c;
+    margin: 30px 0;
+}
+#main .item .content a.button {
+    font-size: 18px;
+    padding: 17px 32px;
+    background-color: #ea542f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Gordita-Regular";
+    font-weight: 600;
+}
+#main .item .content_box {
+    width: 40%;
+}
+
+#main .item .content_box h3 {
+    font-size: 50px;
+}
+
+#main .item .content_box p {
+    font-size: 18px;
+    color: #7c7c7c;
+    margin: 50px 0;
+}
+#main .item .content_box a.button {
+    font-size: 18px;
+    padding: 17px 32px;
+    background-color: #ea542f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Gordita-Regular";
+    font-weight: 600;
+}
+#main .item .image {
+    width: 49%;
+}
+
+#main .item .image img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
 }
