@@ -1,128 +1,293 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  background: transparent;
-  font-weight: normal;
-  text-decoration: none;
-  outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 body {
-  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: #000;
-  overflow-x: hidden;
-  min-width: 320px;
-  font-weight: 500;
+    font-family: "Gordita-medium";
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
 }
 
 input,
 textarea,
 select {
-  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
-  font-weight: 500;
+    font-family: "Gordita-medium";
+    font-weight: 500;
 }
 
 a {
-  color: #000;
+    color: #000;
 }
 
 .thumb {
-  display: block;
+    display: block;
 }
 
 .thumb img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 p {
-  line-height: 1.6em;
-  font-size: 16px;
-  font-family: "GT-Eesti", Arial;
-  font-weight: 500;
-  color: #000;
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "Gordita-medium";
+    font-weight: 500;
+    color: #000;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 br.clear {
-  clear: both;
-  line-height: 0;
+    clear: both;
+    line-height: 0;
 }
 
 .wrapper {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .flex-wrapper {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 @font-face {
-  font-family: "Gordita-Medium";
-  src: url("../fonts/Gordita-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Medium";
+    src: url("../fonts/Gordita-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Gordita-Bold";
-  src: url("../fonts/Gordita-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Bold";
+    src: url("../fonts/Gordita-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Gordita-Light";
-  src: url("../fonts/Gordita-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Light";
+    src: url("../fonts/Gordita-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Gordita-Thin";
-  src: url("../fonts/Gordita-Thin.woff2") format("woff2");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Thin";
+    src: url("../fonts/Gordita-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Gordita-Regular";
-  src: url("../fonts/Gordita-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Regular";
+    src: url("../fonts/Gordita-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Gordita-Ultra";
-  src: url("../fonts/Gordita-Ultra.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Gordita-Ultra";
+    src: url("../fonts/Gordita-Ultra.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+#home {
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#home header {
+}
+
+#home header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#home header .content h1 {
+    font-size: 30px;
+    font-family: "Gordita-Medium";
+}
+
+#home header .content .middle {
+}
+
+#home header .content .middle ul {
+    display: flex;
+    align-items: center;
+}
+
+#home header .content .middle ul li {
+    margin-right: 30px;
+}
+
+#home header .content .middle ul li:last-child {
+    margin-right: 0;
+}
+#home header .content .middle ul li a {
+    display: block;
+    font-size: 18px;
+}
+
+#home header .content .right {
+}
+
+#home header .content .right ul {
+    display: flex;
+    align-items: center;
+}
+
+#home header .content .right ul li {
+    margin-right: 20px;
+}
+
+#home header .content .right ul li:last-child {
+    margin-right: 0;
+}
+
+#home header .content .right ul li a {
+    display: block;
+    width: 40px;
+}
+
+#home header .content .right ul li a img {
+    display: block;
+    width: 100%;
+}
+
+#home header .sportlight {
+    padding: 100px 0;
+    background-image: url(../images/Landing-Page-Img.png);
+    background-repeat: no-repeat;
+    background-size: 37%;
+    background-position: 760px 105px;
+}
+
+#home header .sportlight ul {
+    display: flex;
+    align-items: center;
+}
+
+#home header .sportlight ul li {
+    font-size: 28px;
+    font-family: "Gordita-bold";
+    color: #4895a5;
+    margin-right: 20px;
+}
+
+#home header .sportlight ul li:last-child {
+    margin-right: 0;
+}
+
+#home header .sportlight ul li div.logo_image {
+    width: 70px;
+}
+
+#home header .sportlight ul li div.logo_image img {
+    display: block;
+    width: 100%;
+}
+
+#home header .sportlight h1 {
+    font-size: 75px;
+}
+
+#home header .sportlight h1 b {
+    font-size: 85px;
+    color: #4895a5;
+}
+
+#home header .sportlight p {
+    font-size: 17px;
+    max-width: 470px;
+    margin: 25px 0;
+}
+
+#home header .sportlight .button {
+    font-size: 18px;
+    padding: 17px 32px;
+    background-color: #ea542f;
+    display: inline-block;
+    color: #f3cfc7;
+    border-radius: 5px;
+    font-family: "Gordita-Regular";
+    font-weight: 600;
+}
+
+#home header .sportlight .servise {
+    display: flex;
+    justify-content: flex-f;
+    margin-top: 40px;
+}
+
+#home header .sportlight .servise .material {
+    width: 25%;
+}
+
+#home header .sportlight .servise .material h3 {
+    font-size: 20px;
+    font-family: "Gordita-Bold";
+    margin-bottom: 10px;
+}
+
+#home header .sportlight .servise .material p {
+    margin: 0;
+    color: #7c7c7c;
+    font-size: 12px;
+    max-width: 260px;
+}
+
+#home header .sportlight .servise .care {
+    width: 25%;
+    
+}
+
+#home header .sportlight .servise .care h3 {
+    font-size: 20px;
+    font-family: "Gordita-Bold";
+    margin-bottom: 15px;
+}
+
+#home header .sportlight .servise .care p {
+    margin: 0;
+    color: #7c7c7c;
+    font-size: 12px;
+    max-width: 260px;
+}
