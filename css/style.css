@@ -708,3 +708,72 @@ br.clear {
     font-size: 18px;
     border-radius: 0px 10px 10px 0px;
 }
+#news_letter form input[type="submit"]:hover {
+    cursor: pointer;
+}
+#contact_information {
+    padding-top: 170px;
+}
+
+#contact_information h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+#contact_information p {
+    font-size: 19px;
+    text-align: center;
+    color: #7c7c7c;
+    max-width: 790px;
+    margin: 20px auto 60px;
+}
+
+#contact_information form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 213px;
+    width: 84%;
+    margin: -1px auto;
+}
+
+#contact_information form input {
+    border: 1px solid #d2d2d2;
+    width: 48%;
+    border-radius: 6px;
+    height: 65px;
+    font-size: 18px;
+    padding: 10px;
+}
+#contact_information input:last-child {
+    margin-bottom: 0px;
+}
+
+#contact_information form textarea {
+    border: 1px solid #d2d2d2;
+    width: 48%;
+    border-radius: 6px;
+    height: 139px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+}
+#contact_information form input[type="submit"] {
+    background-color: #e6552e;
+    color: #e5e5e5;
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+
+#contact_information .big_image {
+    width: 34%;
+    margin: 185px auto 0;
+}
+#contact_information .big_image img {
+    display: block;
+    width: 100%;
+}
