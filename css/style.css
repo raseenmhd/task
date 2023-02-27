@@ -300,12 +300,15 @@ br.clear {
 #main .item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #main .item_one {
     margin-bottom: 70px;
 }
 #main .item_middle {
     padding: 130px 0;
+    display: flex;
+    align-items: self-start;
 }
 
 #main .item .image_box {
@@ -320,6 +323,7 @@ br.clear {
 #main .item .image_box .main_image img {
     display: block;
     width: 100%;
+    height: 438px;
     border-radius: 10px;
 }
 #main .item .image_box ul {
@@ -337,7 +341,7 @@ br.clear {
 }
 #main .item .content {
     width: 80%;
-    padding: 75px;
+    padding-left: 75px;
 }
 #main .item .content h3 {
     font-size: 50px;
@@ -419,7 +423,7 @@ br.clear {
 
 #services .top p {
     font-size: 19px;
-    color: #7c7c7c;
+    color: #b2b2b2;
     max-width: 820px;
     margin: 30px auto;
 }
@@ -457,7 +461,7 @@ br.clear {
 
 #services .bottom ul li p {
     font-size: 16px;
-    color: #7c7c7c;
+    color: #b2b2b2;
 }
 
 #services .button {
@@ -877,7 +881,7 @@ footer .bottom {
 }
 
 footer .bottom p {
-    color: #7c7c7c;
+    color: #b2b2b2;
     font-size: 14px;
 }
 footer .bottom p b {
@@ -887,9 +891,110 @@ footer .bottom p b {
 
 @media all and (max-width: 1380px) {
     #home header .sportlight {
-        background-position: 760px 145px;
+        background-position: 740px 145px;
+    }
+    #main .item .content_box p {
+        margin: 30px 0;
     }
     #main .item .image_box .main_image {
         width: 79%;
+    }
+    #testimonials .top p {
+        margin: 20px auto 30px;
+    }
+    #testimonials .bottom .right p {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    #home header .sportlight h1 {
+        font-size: 70px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 80px;
+    }
+    #home header .sportlight {
+        background-position: 590px 240px;
+    }
+    #main .item .image_box .main_image img {
+        height: 395px;
+    }
+    #main .item .content h3 {
+        font-size: 42px;
+    }
+    #main .item .content p {
+        margin: 25px 0;
+    }
+    #main .item .content_box h3 {
+        font-size: 42px;
+    }
+    #main .item .content_box p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    #services .top h3 {
+        font-size: 50px;
+    }
+    #services .top p {
+        font-size: 16px;
+        max-width: 690px;
+    }
+    #services .bottom ul li h5 {
+        font-size: 18px;
+    }
+    #services .bottom ul li {
+        width: 22%;
+    }
+    #services .bottom ul li p {
+        font-size: 14px;
+    }
+    #partners .partners_brand_area .left h3 {
+        font-size: 50px;
+    }
+    #partners .partners_brand_area .left p {
+        font-size: 17px;
+    }
+    #partners .partners_brand_area .right div.item.two img {
+        margin-right: 20px;
+    }
+    #partners .partners_brand_area .right div.item.three img {
+        margin-right: 20px;
+    }
+    #testimonials .top h2 {
+        font-size: 50px;
+    }
+    #testimonials .top p {
+        font-size: 17px;
+        max-width: 730px;
+    }
+    #testimonials .bottom .right p {
+        font-size: 16px;
+    }
+    #testimonials .bottom .left img {
+        height: 230px;
+    }
+    #testimonials .bottom .right p {
+        margin-bottom: 20px;
+    }
+    #news_letter h2 {
+        font-size: 50px;
+    }
+    #news_letter p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+    #news_letter form input[type="email"] {
+        font-size: 15px;
+    }
+    #news_letter form input[type="submit"] {
+        font-size: 16px;
+    }
+    #contact_information h2 {
+        font-size: 50px;
+    }
+    #contact_information p {
+        font-size: 17px;
+        max-width: 710px;
     }
 }
