@@ -660,3 +660,51 @@ br.clear {
 #testimonials ul li:last-child {
     margin-right: 0;
 }
+
+#news_letter {
+    padding: 100px 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#news_letter .logo {
+    width: 75px;
+    display: inline-block;
+}
+
+#news_letter .logo img {
+    display: block;
+    width: 100%;
+}
+
+#news_letter h2 {
+    font-size: 54px;
+}
+
+#news_letter p {
+    font-size: 19px;
+    color: #7c7c7c;
+    max-width: 790px;
+    margin: 20px auto;
+}
+
+#news_letter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#news_letter form input[type="email"] {
+    width: 40%;
+    padding: 15px;
+    background-color: #fff;
+    font-size: 17px;
+}
+#news_letter form input[type="submit"] {
+    width: 15%;
+    background-color: #ea542f;
+    color: #f9d4cb;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 0px 10px 10px 0px;
+}
