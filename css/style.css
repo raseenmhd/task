@@ -125,6 +125,9 @@ br.clear {
     font-style: normal;
     font-display: swap;
 }
+
+/* home section */
+
 #home {
     background-image: url(../images/background-image.png);
     background-repeat: no-repeat;
@@ -288,6 +291,9 @@ br.clear {
     max-width: 260px;
 }
 
+/* section home-end  */
+/* section main */
+
 #main {
     padding: 100px 0;
 }
@@ -384,6 +390,9 @@ br.clear {
     border-radius: 10px;
 }
 
+/* section main-end  */
+/* section services */
+
 #services {
     padding: 100px 0;
     background-color: #fafafa;
@@ -464,6 +473,9 @@ br.clear {
     margin-top: 30px;
 }
 
+/* section services-end  */
+/* section partners */
+
 #partners {
     padding: 150px 0;
 }
@@ -503,59 +515,57 @@ br.clear {
     width: 50%;
 }
 
-#partners .partners_brand_area .right ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#partners .partners_brand_area .right ul li {
-    margin: 0 200px 30px;
-}
-
-#partners .partners_brand_area .right ul li a {
-    display: block;
-    width: 80%;
-    border: none;
-}
-
-#partners .partners_brand_area .right ul li a img {
-    display: inline-block;
+#partners .partners_brand_area .right div.items {
     width: 100%;
-    border-bottom: 3px outset rgb(0 0 0 / 10%);
 }
 
-#partners .partners_brand_area .right ul li:nth-child(2) {
-    margin: 0px 0 30px 60px;
+#partners .partners_brand_area .right div.item {
+    display: flex;
+    cursor: pointer;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(3) {
-    margin: 0 60px 30px 0;
+#partners .partners_brand_area .right div.item.one {
+    width: 170px;
+    margin: 0 auto;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(4) {
-    margin: 10px 0 0 0;
+#partners .partners_brand_area .right div.item.two {
+    justify-content: space-around;
+    width: 170px;
+    margin: 30px auto;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(5) {
-    margin: 10px auto 0;
+#partners .partners_brand_area .right div.item.two img {
+    margin-right: 30px;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(6) {
-    margin: 10px 0 0 0;
+#partners .partners_brand_area .right div.item.two img:last-child {
+    margin-right: 0;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(7) {
-    margin: 30px 0 0 60px;
+#partners .partners_brand_area .right div.item.three img {
+    margin-right: 30px;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(8) {
-    margin: 30px 60px 0 0;
+#partners .partners_brand_area .right div.item.three img:last-child {
+    margin-right: 0;
 }
 
-#partners .partners_brand_area .right ul li:nth-child(9) {
-    margin: 30px 200px 0;
+#partners .partners_brand_area .right div.item.three {
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
 }
+
+#partners .partners_brand_area .right div.item img {
+    display: block;
+    width: 100%;
+    box-shadow: 7px 11px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+/* section partners-end  */
+/* section testimonials */
 
 #testimonials {
     padding: 180px 0 155px;
@@ -668,6 +678,9 @@ br.clear {
     margin-right: 0;
 }
 
+/* section testimonials-end  */
+/* section news_letter */
+
 #news_letter {
     padding: 100px 0;
     background-color: #fafafa;
@@ -718,6 +731,10 @@ br.clear {
 #news_letter form input[type="submit"]:hover {
     cursor: pointer;
 }
+
+/* section news_letter-end  */
+/* section contact_information */
+
 #contact_information {
     padding-top: 170px;
 }
@@ -784,6 +801,9 @@ br.clear {
     display: block;
     width: 100%;
 }
+
+/* section contact_information-end  */
+/* section footer */
 
 footer {
     padding: 55px 0 65px;
@@ -863,4 +883,13 @@ footer .bottom p {
 footer .bottom p b {
     color: #000;
     font-size: 18px;
+}
+
+@media all and (max-width: 1380px) {
+    #home header .sportlight {
+        background-position: 760px 145px;
+    }
+    #main .item .image_box .main_image {
+        width: 79%;
+    }
 }
