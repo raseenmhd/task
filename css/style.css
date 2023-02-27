@@ -658,6 +658,9 @@ br.clear {
     border-radius: 50px;
     margin-right: 15px;
 }
+#testimonials ul li:hover {
+    background-color: #559ea9;
+}
 #testimonials ul li:first-child {
     background-color: #559ea9;
 }
@@ -861,4 +864,3 @@ footer .bottom p b {
     color: #000;
     font-size: 18px;
 }
-
