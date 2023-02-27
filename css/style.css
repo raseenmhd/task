@@ -777,3 +777,83 @@ br.clear {
     display: block;
     width: 100%;
 }
+
+footer {
+    padding: 55px 0 65px;
+    background-color: #f3f3f3;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .top h1 {
+    font-size: 28px;
+}
+
+footer .top .middle {
+}
+
+footer .top .middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .top .middle ul li {
+    margin-right: 50px;
+}
+footer .top .middle ul li:last-child {
+    margin-right: 0;
+}
+
+footer .top .middle ul li a {
+    display: block;
+    font-size: 16px;
+}
+
+footer .top .righ {
+}
+
+footer .top .righ ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer .top .righ ul li {
+    width: 30px;
+    margin-right: 3px;
+}
+
+footer .top .righ ul li:last-child {
+    margin-right: 0px;
+}
+footer .top .righ ul li a {
+    display: block;
+}
+
+footer .top .righ ul li a img {
+    display: block;
+    width: 100%;
+}
+
+footer .line {
+    border-bottom: 2px solid #e2e2e2;
+    margin: 30px 45px;
+}
+
+footer .bottom {
+    text-align: center;
+}
+
+footer .bottom p {
+    color: #7c7c7c;
+    font-size: 14px;
+}
+footer .bottom p b {
+    color: #000;
+    font-size: 18px;
+}
