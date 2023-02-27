@@ -138,11 +138,11 @@ br.clear {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 90px;
 }
 
 #home header .content h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Gordita-Medium";
 }
 
@@ -151,6 +151,7 @@ br.clear {
 
 #home header .content .middle ul {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -200,37 +201,33 @@ br.clear {
     background-position: 760px 105px;
 }
 
-#home header .sportlight ul {
+#home header .sportlight .title {
     display: flex;
     align-items: center;
 }
 
-#home header .sportlight ul li {
+#home header .sportlight .title h2 {
     font-size: 28px;
     font-family: "Gordita-bold";
     color: #4895a5;
     margin-right: 20px;
 }
 
-#home header .sportlight ul li:last-child {
-    margin-right: 0;
+#home header .sportlight .title div.logo_image {
+    width: 75px;
 }
 
-#home header .sportlight ul li div.logo_image {
-    width: 70px;
-}
-
-#home header .sportlight ul li div.logo_image img {
+#home header .sportlight .title div.logo_image img {
     display: block;
     width: 100%;
 }
 
 #home header .sportlight h1 {
-    font-size: 75px;
+    font-size: 77px;
 }
 
 #home header .sportlight h1 b {
-    font-size: 85px;
+    font-size: 87px;
     color: #4895a5;
 }
 
@@ -292,12 +289,19 @@ br.clear {
 }
 
 #main {
+    padding: 100px 0;
 }
 #main .item {
-    padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
+#main .item_one {
+    margin-bottom: 70px;
+}
+#main .item_middle {
+    padding: 130px 0;
+}
+
 #main .item .image_box {
     width: 85%;
     display: flex;
@@ -352,13 +356,13 @@ br.clear {
 }
 
 #main .item .content_box h3 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 #main .item .content_box p {
     font-size: 18px;
     color: #7c7c7c;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 #main .item .content_box a.button {
     font-size: 18px;
@@ -371,7 +375,7 @@ br.clear {
     font-weight: 600;
 }
 #main .item .image {
-    width: 49%;
+    width: 48%;
 }
 
 #main .item .image img {
@@ -401,7 +405,7 @@ br.clear {
 }
 
 #services .top h3 {
-    font-size: 54px;
+    font-size: 55px;
 }
 
 #services .top p {
@@ -857,3 +861,4 @@ footer .bottom p b {
     color: #000;
     font-size: 18px;
 }
+
