@@ -844,7 +844,7 @@ br.clear {
 }
 
 /* section contact_information-end  */
-/* section footer */
+/* footer */
 
 footer {
     padding: 55px 0 65px;
@@ -925,6 +925,8 @@ footer .bottom p b {
     color: #000;
     font-size: 18px;
 }
+
+/* footer-end  */
 
 @media all and (max-width: 1380px) {
     #home header .sportlight {
