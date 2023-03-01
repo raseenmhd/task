@@ -132,6 +132,7 @@ br.clear {
     background-image: url(../images/background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #home header {
@@ -148,7 +149,13 @@ br.clear {
     font-size: 28px;
     font-family: "Gordita-Medium";
 }
-
+#home header .content div.menu {
+    display: none;
+}
+#home header .content div.menu img {
+    width: 100%;
+    display: block;
+}
 #home header .content .middle {
 }
 
@@ -294,64 +301,62 @@ br.clear {
 /* section home-end  */
 /* section main */
 
-#main {
+#about {
     padding: 100px 0;
 }
-#main .item {
+#about .item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#main .item_one {
-    margin-bottom: 70px;
-}
-#main .item_middle {
+
+#about .item_middle {
     padding: 130px 0;
     display: flex;
     align-items: self-start;
 }
 
-#main .item .image_box {
-    width: 85%;
+#about .item .image_box {
+    width: 78%;
     display: flex;
     justify-content: space-between;
 }
-#main .item .image_box .main_image {
+#about .item .image_box .main_image {
     margin-right: 30px;
     width: 75%;
 }
-#main .item .image_box .main_image img {
+#about .item .image_box .main_image img {
     display: block;
     width: 100%;
-    height: 438px;
+    height: 450px;
     border-radius: 10px;
 }
-#main .item .image_box ul {
+#about .item .image_box ul {
 }
-#main .item .image_box ul li {
+#about .item .image_box ul li {
     width: 100%;
 }
-#main .item .image_box ul li.therd_image {
+#about .item .image_box ul li.therd_image {
     margin-top: 30px;
 }
-#main .item .image_box ul li img {
+#about .item .image_box ul li img {
     display: block;
     width: 100%;
     border-radius: 10px;
 }
-#main .item .content {
+#about .item .content {
     width: 80%;
     padding-left: 75px;
 }
-#main .item .content h3 {
+#about .item .content h3 {
     font-size: 50px;
 }
-#main .item .content p {
+#about .item .content p {
     font-size: 18px;
     color: #7c7c7c;
     margin: 30px 0;
 }
-#main .item .content a.button {
+#about .item .content a.button {
     font-size: 18px;
     padding: 17px 32px;
     background-color: #ea542f;
@@ -361,20 +366,52 @@ br.clear {
     font-family: "Gordita-Regular";
     font-weight: 600;
 }
-#main .item .content_box {
+#skin_rotine {
+    padding: 100px 0;
+}
+#skin_rotine .item {
+    display: flex;
+    justify-content: space-between;
+}
+#skin_rotine .item_middle {
+    margin-bottom: 140px;
+}
+#skin_rotine .item .content {
+    width: 80%;
+    padding-left: 75px;
+}
+#skin_rotine .item .content h3 {
+    font-size: 50px;
+}
+#skin_rotine .item .content p {
+    font-size: 18px;
+    color: #7c7c7c;
+    margin: 30px 0;
+}
+#skin_rotine .item .content a.button {
+    font-size: 18px;
+    padding: 17px 32px;
+    background-color: #ea542f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Gordita-Regular";
+    font-weight: 600;
+}
+#skin_rotine .item .content_box {
     width: 40%;
 }
 
-#main .item .content_box h3 {
+#skin_rotine .item .content_box h3 {
     font-size: 55px;
 }
 
-#main .item .content_box p {
+#skin_rotine .item .content_box p {
     font-size: 18px;
     color: #7c7c7c;
     margin: 40px 0;
 }
-#main .item .content_box a.button {
+#skin_rotine .item .content_box a.button {
     font-size: 18px;
     padding: 17px 32px;
     background-color: #ea542f;
@@ -384,11 +421,11 @@ br.clear {
     font-family: "Gordita-Regular";
     font-weight: 600;
 }
-#main .item .image {
+#skin_rotine .item .image {
     width: 48%;
 }
 
-#main .item .image img {
+#skin_rotine .item .image img {
     display: block;
     width: 100%;
     border-radius: 10px;
@@ -893,11 +930,11 @@ footer .bottom p b {
     #home header .sportlight {
         background-position: 740px 145px;
     }
-    #main .item .content_box p {
-        margin: 30px 0;
+    #about .item .image_box .main_image img {
+        height: 442px;
     }
-    #main .item .image_box .main_image {
-        width: 79%;
+    #skin_rotine .item .content_box p {
+        margin: 30px 0;
     }
     #testimonials .top p {
         margin: 20px auto 30px;
@@ -915,23 +952,24 @@ footer .bottom p b {
         font-size: 80px;
     }
     #home header .sportlight {
-        background-position: 590px 240px;
+        background-position: 620px 220px;
     }
-    #main .item .image_box .main_image img {
-        height: 395px;
+    #about .item .image_box .main_image img {
+        height: 385px;
     }
-    #main .item .content h3 {
-        font-size: 42px;
+    #skin_rotine .item .image img {
+        height: 340px;
     }
-    #main .item .content p {
-        margin: 25px 0;
+    #skin_rotine .item .content_box h3 {
+        font-size: 43px;
     }
-    #main .item .content_box h3 {
-        font-size: 42px;
+    #skin_rotine .item .content_box p {
+        margin: 8px 0;
+        font-size: 15px;
     }
-    #main .item .content_box p {
+    #skin_rotine .item .content_box a.button {
         font-size: 16px;
-        margin: 10px 0;
+        padding: 15px 30px;
     }
     #services .top h3 {
         font-size: 50px;
@@ -996,5 +1034,613 @@ footer .bottom p b {
     #contact_information p {
         font-size: 17px;
         max-width: 710px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    #home header .sportlight .servise .material {
+        margin-right: 60px;
+    }
+    #home header .sportlight {
+        background-position: 565px 270px;
+    }
+    #services .button {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    #partners .partners_brand_area .left {
+        width: 40%;
+    }
+    #partners .partners_brand_area .left a.button {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    #partners .partners_brand_area .right {
+        width: 55%;
+    }
+    #partners .partners_brand_area .right div.item.one {
+        width: 160px;
+    }
+    #partners .partners_brand_area .right div.item.two {
+        width: 160px;
+        margin: 35px auto;
+    }
+    #partners .partners_brand_area .right div.item.three {
+        width: 160px;
+    }
+    #testimonials .bottom .right p {
+        margin-bottom: 5px;
+    }
+    #testimonials .bottom .right .profile .details h5 {
+        font-size: 17px;
+    }
+    #testimonials .bottom .right p img.one {
+        margin: 0 20px 5px 0;
+    }
+    #services .top h3 {
+        font-size: 48px;
+    }
+    #services .bottom ul li .image {
+        width: 50px;
+    }
+    #services .bottom ul li h5 {
+        font-size: 16px;
+    }
+    #services .bottom ul li p {
+        font-size: 13px;
+    }
+    #contact_information form input {
+        font-size: 15px;
+    }
+    #contact_information form textarea {
+        font-size: 15px;
+    }
+    #testimonials .top h2 {
+        font-size: 48px;
+    }
+    #news_letter h2 {
+        font-size: 48px;
+    }
+    #contact_information h2 {
+        font-size: 48px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #home header .content h1 {
+        font-size: 25px;
+    }
+    #home header .content .middle ul li a {
+        font-size: 15px;
+    }
+    #home header .content .right ul li a {
+        width: 30px;
+    }
+    #home header .sportlight .title div.logo_image {
+        width: 65px;
+    }
+    #home header .sportlight h1 {
+        font-size: 60px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 68px;
+    }
+    #home header .sportlight .button {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    #home header .sportlight .servise .material {
+        margin-right: 35px;
+    }
+    #home header .sportlight p {
+        font-size: 15px;
+    }
+    #home header .sportlight {
+        background-position: 450px 349px;
+    }
+    #about .item .image_box {
+        width: 80%;
+    }
+    #about .item .image_box ul li img {
+        height: 160px;
+    }
+    #about .item .image_box .main_image {
+        margin-right: 15px;
+        width: 80%;
+    }
+    #about .item .image_box .main_image img {
+        height: 335px;
+    }
+    #about .item .content h3 {
+        font-size: 45px;
+    }
+    #about .item .content p {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    #about .item .image_box ul li.therd_image {
+        margin-top: 15px;
+    }
+    #about .item .content a.button {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    #partners .partners_brand_area {
+        display: block;
+    }
+    #partners .partners_brand_area .left {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #partners .partners_brand_area .left h3 {
+        font-size: 48px;
+    }
+    #partners .partners_brand_area .right {
+        margin: 50px auto 0;
+    }
+    #services .top h3 {
+        font-size: 45px;
+    }
+    #services .bottom ul li h5 {
+        font-size: 14px;
+    }
+    #services .bottom ul li p {
+        font-size: 12px;
+    }
+    #testimonials {
+        padding: 50px 0 155px;
+    }
+    #testimonials .top h2 {
+        font-size: 45px;
+    }
+    #testimonials .bottom .left {
+        display: none;
+    }
+    #testimonials .bottom .right {
+        width: 100%;
+        text-align: center;
+    }
+    #testimonials .bottom .right .profile {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    #testimonials .top p {
+        max-width: 600px;
+    }
+    #news_letter h2 {
+        font-size: 42px;
+    }
+    #news_letter p {
+        max-width: 600px;
+    }
+    #news_letter form input[type="email"] {
+        width: 50%;
+    }
+    #news_letter form input[type="submit"] {
+        width: 20%;
+    }
+    #contact_information p {
+        max-width: 600px;
+    }
+    #contact_information .big_image {
+        width: 40%;
+    }
+    footer {
+        padding: 50px 0 55px;
+    }
+    footer .top h1 {
+        font-size: 20px;
+    }
+    footer .top .middle ul li {
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #home header .content .middle ul {
+        display: none;
+    }
+
+    #home header .content div.menu {
+        display: block;
+    }
+    #home header .content .middle ul li {
+        margin-right: 35px;
+    }
+    #home header .content .right ul {
+        display: none;
+    }
+    #home header .content {
+        position: relative;
+    }
+    #home header .content div.menu {
+        position: absolute;
+        right: 0;
+    }
+    #home header .sportlight {
+        padding: 50px 0;
+        background-position: 415px 220px;
+    }
+    #home header .sportlight h1 {
+        font-size: 55px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 62px;
+    }
+    #home header .sportlight p {
+        margin: 15px 0;
+        max-width: 390px;
+    }
+    #skin_rotine .item {
+        display: block;
+        text-align: center;
+    }
+    #skin_rotine .item .content_box {
+        width: 100%;
+    }
+    #skin_rotine .item .content_box h3 {
+        font-size: 43px;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    #skin_rotine .item .content_box p {
+        margin: 15px auto;
+        max-width: 540px;
+    }
+    #skin_rotine .item .image {
+        width: 60%;
+        margin: 0 auto;
+    }
+    #services .top p {
+        max-width: 590px;
+    }
+    #partners {
+        padding: 90px 0;
+    }
+    #testimonials {
+        padding: 50px 0 90px;
+    }
+    #contact_information p {
+        margin: 20px auto 30px;
+    }
+    #contact_information {
+        padding-top: 100px;
+    }
+    #home header .sportlight .servise .material {
+        width: 27%;
+    }
+    #home header .sportlight .servise .care {
+        width: 27%;
+    }
+    #services .bottom ul {
+        flex-wrap: wrap;
+    }
+    #services .bottom ul li {
+        width: 35%;
+        margin-bottom: 20px;
+        padding: 40px 15px;
+    }
+    #about .item .content {
+        padding-left: 25px;
+    }
+    footer .top .middle ul li a {
+        font-size: 14px;
+    }
+    footer .top .middle ul li {
+        margin-right: 15px;
+    }
+    footer .top .righ ul li {
+        width: 25px;
+        margin-right: 5px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    footer .bottom p {
+        font-size: 12px;
+    }
+    footer .line {
+        margin: 25px 40px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #home header .sportlight {
+        background-image: none;
+    }
+    #home header .sportlight .servise .material {
+        width: 40%;
+    }
+    #home header .sportlight .servise .care {
+        width: 40%;
+    }
+    #home header .sportlight h1 {
+        font-size: 50px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 56px;
+    }
+    #home header .sportlight p {
+        margin: 20px 0;
+    }
+    #about .item {
+        display: block;
+    }
+    #partners .partners_brand_area .right div.item.one {
+        width: 135px;
+    }
+    #partners .partners_brand_area .right div.item.two {
+        width: 135px;
+    }
+    #partners .partners_brand_area .right div.item.three {
+        width: 135px;
+    }
+    #about .item .image_box {
+        width: 100%;
+    }
+    #about .item .content {
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #about .item .image_box .main_image img {
+        height: 287px;
+    }
+    #about .item .image_box ul li img {
+        height: 135px;
+    }
+    #about .item .content a.button {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    #skin_rotine .item .image {
+        width: 70%;
+    }
+    #skin_rotine .item .image img {
+        height: 200px;
+    }
+    #skin_rotine .item .content_box {
+        margin-top: 20px;
+    }
+    #skin_rotine {
+        padding: 0px 0 90px;
+    }
+    #skin_rotine .item .content_box a.button {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    #skin_rotine .item .content_box h3 {
+        font-size: 40px;
+    }
+    #services .bottom ul li {
+        width: 45%;
+        margin-bottom: 15px;
+        padding: 20px 10px;
+    }
+    #partners {
+        padding: 50px 0;
+    }
+    #news_letter form input[type="email"] {
+        width: 55%;
+    }
+    #news_letter form input[type="submit"] {
+        width: 25%;
+    }
+    #contact_information form input {
+        font-size: 13px;
+    }
+    #contact_information form textarea {
+        font-size: 13px;
+    }
+    #contact_information form input[type="submit"] {
+        font-size: 15px;
+    }
+    #contact_information form {
+        width: 100%;
+    }
+    #contact_information .big_image {
+        width: 60%;
+        margin: 85px auto 0;
+    }
+    footer .top .middle ul {
+        display: none;
+    }
+    footer {
+        padding: 25px 0;
+    }
+}
+@media all and (max-width: 480px) {
+    #partners .partners_brand_area .right div.item.one {
+        width: 120px;
+    }
+    #partners .partners_brand_area .right div.item.two {
+        width: 120px;
+    }
+    #partners .partners_brand_area .right div.item.three {
+        width: 120px;
+    }
+    #partners .partners_brand_area .right div.item.two img {
+        margin-right: 10px;
+    }
+    #partners .partners_brand_area .right div.item.three img {
+        margin-right: 0px;
+    }
+    #partners .partners_brand_area .right div.item.two {
+        margin: 20px auto;
+    }
+    #home header .sportlight h1 {
+        font-size: 38px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 43px;
+    }
+    #home header .sportlight p {
+        font-size: 14px;
+        max-width: 300px;
+        margin: 15px 0;
+    }
+    #home header .sportlight .button {
+        font-size: 14px;
+        padding: 15px 22px;
+    }
+    #home header .sportlight .servise .material {
+        width: 50%;
+    }
+    #home header .sportlight .servise .care {
+        width: 50%;
+    }
+    #home header .sportlight {
+        padding: 20px 0;
+    }
+    #home header .sportlight .title h2 {
+        font-size: 25px;
+    }
+    #home header .sportlight .title div.logo_image {
+        width: 55px;
+    }
+    #services .bottom ul li {
+        padding: 10px 0px;
+    }
+    #services .top p {
+        font-size: 14px;
+    }
+    #news_letter form {
+        display: block;
+    }
+    #news_letter form input[type="email"] {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    #news_letter form input[type="submit"] {
+        width: 35%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    #news_letter .logo {
+        width: 65px;
+    }
+    #news_letter h2 {
+        font-size: 40px;
+        max-width: 315px;
+        margin: 0 auto;
+    }
+    #contact_information {
+        font-size: 40px;
+    }
+    #services {
+        padding: 50px 0;
+    }
+    #testimonials .top p {
+        font-size: 15px;
+    }
+    #testimonials .bottom .right p {
+        font-size: 15px;
+    }
+    #testimonials ul li {
+        width: 10px;
+        height: 10px;
+    }
+}
+@media all and (max-width: 360px) {
+    #home header .content h1 {
+        font-size: 20px;
+    }
+    #home header .content div.menu {
+        width: 45px;
+    }
+    #partners .partners_brand_area .right div.item.one {
+        width: 110px;
+    }
+    #partners .partners_brand_area .right div.item.two {
+        width: 110px;
+    }
+    #partners .partners_brand_area .right div.item.three {
+        width: 105px;
+    }
+    #home header .sportlight h1 {
+        font-size: 35px;
+    }
+    #home header .sportlight h1 b {
+        font-size: 39px;
+    }
+    #home header .sportlight p {
+        margin: 10px 0;
+    }
+    #home header .sportlight .servise .material {
+        margin-right: 0px;
+    }
+    #home header .sportlight .servise {
+        margin-top: 25px;
+    }
+    #about .item .content h3 {
+        font-size: 40px;
+    }
+    #about .item .content p {
+        font-size: 14px;
+    }
+    #about .item .image_box .main_image img {
+        height: 255px;
+    }
+    #about .item .image_box ul li img {
+        height: 120px;
+    }
+    #skin_rotine .item .content_box h3 {
+        font-size: 35px;
+    }
+    #skin_rotine .item .content_box p {
+        font-size: 14px;
+    }
+    #skin_rotine .item .image img {
+        height: 180px;
+    }
+    #services .top h3 {
+        font-size: 40px;
+    }
+    #services .top .logo {
+        width: 65px;
+    }
+    #services .bottom ul li {
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    #partners .partners_brand_area .left h3 {
+        font-size: 40px;
+    }
+    #partners .partners_brand_area .left p {
+        font-size: 15px;
+    }
+    #testimonials .top h2 {
+        font-size: 40px;
+    }
+    #testimonials .top p {
+        font-size: 14px;
+        margin: 10px auto 20px;
+    }
+    #testimonials .bottom .right p {
+        font-size: 14px;
+    }
+    #testimonials .bottom .right .profile .details {
+        text-align: left;
+    }
+    #news_letter h2 {
+        font-size: 35px;
+    }
+    #news_letter p {
+        font-size: 14px;
+    }
+    #contact_information {
+        padding-top: 45px;
+    }
+    #contact_information h2 {
+        font-size: 40px;
+    }
+    #contact_information p {
+        font-size: 14px;
+    }
+    footer .line {
+        margin: 20px 40px;
     }
 }
